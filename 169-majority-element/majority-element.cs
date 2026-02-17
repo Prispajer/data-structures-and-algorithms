@@ -13,7 +13,7 @@ public class Solution {
                 candidate = nums[read];
             }
 
-            if(candidate == nums[read]){
+            if(nums[read] == candidate){
                 count++;
             }
             else{
