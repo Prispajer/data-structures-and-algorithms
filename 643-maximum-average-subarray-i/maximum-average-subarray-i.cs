@@ -21,7 +21,7 @@ public class Solution
         {
             if (read < k)
             {
-                result += nums[read];
+                result = result + nums[read];
                 read++;
 
                 if (read == k)
